@@ -19,13 +19,21 @@ MediTrack helps in keeping track of medicines, including their stock, pricing, a
 
 Meditrack/
 ├── config/ # Configuration files (database setup, environment settings)
+
 ├── controllers/ # Business logic and request handling
+
 ├── middleware/ # Authentication, error handling, etc.
+
 ├── models/ # Mongoose schemas (Medicine, Pharmacy, etc.)
+
 ├── routes/ # Express API route definitions
+
 ├── server.js # Application entry point
+
 ├── .env # Environment settings (should not be committed)
+
 ├── package.json # Dependencies & scripts
+
 └── README.md # Project documentation
 
 
